@@ -12,7 +12,7 @@ const HeroText = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
         className="lg:text-2xl sm:text-xl  uppercase text-orange "
-      >Front-End  Developer</motion.h2>
+      >Web Developer</motion.h2>
 
          <motion.h1
         variants={fadeIn("right", 0.4)}
@@ -20,7 +20,7 @@ const HeroText = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
         className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-white font-bold uppercase"
-      >Prabodha Jayawardhana</motion.h1>
+      >Prabodha  Jayawardhana</motion.h1>
 
         <motion.p
         variants={fadeIn("up", 0.6)}

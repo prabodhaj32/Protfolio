@@ -6,32 +6,32 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Student Management System",
+    year: "MERN STACK PROJECT",
     align: "right",
-    image: "/images/website-img-1.jpg",
-    link: "#",
+    image: "/images/SM1.png",
+    link: "https://github.com/prabodhaj32/Advanced-MERN-Student-Management-System.git",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "Food Delivery Website",
+    year: "Reactjs",
     align: "left",
-    image: "/images/website-img-2.webp",
-    link: "#",
+    image: "/images/FD1.png",
+    link: "https://github.com/prabodhaj32/Food-Delivery-Reactjs.git",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "House Rental Website",
+    year: "Reactjs",
     align: "right",
-    image: "/images/website-img-3.jpg",
-    link: "#",
+    image: "/images/RW1.png",
+    link: "https://github.com/prabodhaj32/Real-Estate.git",
   },
   {
-    name: "Bank of Luck",
-    year: "May2024",
+    name: "University Website",
+    year: "Reactjs",
     align: "left",
-    image: "/images/website-img-4.jpg",
-    link: "#",
+    image: "/images/UF1.png",
+    link: "https://github.com/prabodhaj32/Educity-Reactjs-Web.git",
   },
 ];
 
