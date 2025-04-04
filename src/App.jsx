@@ -26,10 +26,10 @@ function App() {
       <ExperienceMain/>
       <ProjectsMain/>
       <ContactMeMain/>
+      {/* <HelperSection/> */}
       <FooterMain/>
-      <HelperSection/>
      
-    
+      
     </main>
     );
 }

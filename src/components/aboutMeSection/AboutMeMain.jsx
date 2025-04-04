@@ -29,7 +29,8 @@ const improvedFadeIn = (direction, delay) => {
 
 const AboutMeMain = () => {
   return (
-    <div className="flex md:flex-row sm:flex-col gap-12 max-w-[1200px] mx-auto mt-[100px] justify-between items-center">
+    < div id="about">
+    <div className=" flex  pt-[2px] pb-[150px] md:flex-row sm:flex-col gap-12 max-w-[1200px] mx-auto mt-[100px] justify-between items-center">
       <motion.div
         variants={improvedFadeIn("right", 0.2)} // Slight delay for staggered effect
         initial="hidden"
@@ -46,6 +47,7 @@ const AboutMeMain = () => {
       >
         <AboutMeimage/>
       </motion.div>
+    </div>
     </div>
   );
 };

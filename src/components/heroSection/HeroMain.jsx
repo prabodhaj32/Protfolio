@@ -4,8 +4,8 @@ import HeroPic from './HeroPic';
 
 const HeroMain = () => {
   return (
-    <div className="pt-40 pb-16">
-        <div className="flex md:flex-row sm:flex-col max-w-[1200px] mx-auto justify-between items-center relative px-4">
+    <div className="pt-[150px] pb-[150px]">
+        <div className="flex md:flex-row sm:flex-col max-w-[1400px] mx-auto justify-between items-center relative px-8">
         <HeroText/>
         <HeroPic/>
     </div>

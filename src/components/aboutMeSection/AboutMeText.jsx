@@ -4,7 +4,7 @@ const AboutMeText = () => {
   return (
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
         <h2  className="text-6xl text-cyan mb-10">About Me</h2>
-        <p className="text-white">A dedicated Software engineering undergraduate currently studying for
+        <p className="text-white text-2xl" >A dedicated Software engineering undergraduate currently studying for
          a higher national diploma at the National institute of Business
          Management (NIBM). looking for an internship or entry level position in
          front-end development where I can improve my skills and learn more in
