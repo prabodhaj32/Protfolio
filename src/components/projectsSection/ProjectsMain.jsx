@@ -1,37 +1,37 @@
-import React from 'react'
-import ProjectsText from "./ProjectsText";
-import SingleProject from "./SingleProject";
-import { motion } from "framer-motion";
-import { fadeIn } from "../../framerMotion/variants";
+import React from 'react';
+import ProjectsText from './ProjectsText';
+import SingleProject from './SingleProject';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../framerMotion/variants';
 
 const projects = [
   {
-    name: "Student Management System",
-    year: "MERN STACK PROJECT",
-    align: "right",
-    image: "/images/SM1.png",
-    link: "https://github.com/prabodhaj32/Advanced-MERN-Student-Management-System.git",
+    id: 'student-management',
+    name: 'Student Management System',
+    year: 'MERN STACK PROJECT',
+    align: 'right',
+    image: '/images/SM1.png',
   },
   {
-    name: "Food Delivery Website",
-    year: "Reactjs",
-    align: "left",
-    image: "/images/FD1.png",
-    link: "https://github.com/prabodhaj32/Food-Delivery-Reactjs.git",
+    id: 'food-delivery',
+    name: 'Food Delivery Website',
+    year: 'Reactjs',
+    align: 'left',
+    image: '/images/FD1.png',
   },
   {
-    name: "House Rental Website",
-    year: "Reactjs",
-    align: "right",
-    image: "/images/RW1.png",
-    link: "https://github.com/prabodhaj32/Real-Estate.git",
+    id: 'house-rental',
+    name: 'House Rental Website',
+    year: 'Reactjs/Laravel',
+    align: 'right',
+    image: '/images/RW2.png',
   },
   {
-    name: "University Website",
-    year: "Reactjs",
-    align: "left",
-    image: "/images/UF1.png",
-    link: "https://github.com/prabodhaj32/Educity-Reactjs-Web.git",
+    id: 'university',
+    name: 'University Website',
+    year: 'Reactjs',
+    align: 'left',
+    image: '/images/UF1.png',
   },
 ];
 
@@ -47,17 +47,16 @@ const ProjectsMain = () => {
         <ProjectsText />
       </motion.div>
       <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
-        {projects.map((project, index) => {
-          return (
-            <SingleProject
-              key={index}
-              name={project.name}
-              year={project.year}
-              align={project.align}
-              image={project.image}
-            />
-          );
-        })}
+        {projects.map((project, index) => (
+          <SingleProject
+            key={index}
+            id={project.id}
+            name={project.name}
+            year={project.year}
+            align={project.align}
+            image={project.image}
+          />
+        ))}
       </div>
     </div>
   );
