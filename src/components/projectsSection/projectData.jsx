@@ -5,10 +5,11 @@ const projects = [
     year: "MERN STACK PROJECT",
     align: "right",
     images: [
-      "/images/SM1.png", 
-      "/images/FD1.png", 
-      
+      "/images/S1.png", 
+      "/images/S2.png", 
+      "/images/S3.png"
     ],
+    githubLink: "https://github.com/prabodhaj32/Advanced-MERN-Student-Management-System.git", // Correct placement for githubLink
     description:
       "A full-stack application to manage student records using MongoDB, Express.js, React, and Node.js. Features include user authentication, CRUD operations, and admin panel.",
   },
@@ -18,9 +19,11 @@ const projects = [
     year: "Reactjs",
     align: "left",
     images: [
-      "/images/FD1.png",
-      "/images/FD2.png", 
+      "/images/F1.png", 
+      "/images/F2.png", 
+      "/images/F3.png"
     ],
+    githubLink: "https://github.com/prabodhaj32/Food-Delivery-Reactjs.git",
     description:
       "A responsive food ordering site with real-time cart updates and restaurant menus. Built using React.js and styled-components.",
   },
@@ -30,9 +33,11 @@ const projects = [
     year: "Reactjs/Laravel",
     align: "right",
     images: [
-      "/images/RW2.png",
-      "/images/RW3.png",
+      "/images/H3.png", 
+      "/images/H1.png", 
+      "/images/H2.png"
     ],
+    githubLink: "https://github.com/prabodhaj32/House-Rent-website.git",
     description:
       "A property listing website developed using Laravel for backend APIs and React.js for the frontend. Includes search and filtering by location, price, and amenities.",
   },
@@ -42,9 +47,11 @@ const projects = [
     year: "Reactjs",
     align: "left",
     images: [
-      "/images/UF1.png",
-      "/images/UF2.png", 
+      "/images/U1.png", 
+      "/images/U2.png", 
+      "/images/U3.png"
     ],
+    githubLink: "https://github.com/prabodhaj32/Educity-Reactjs-Web.git",
     description:
       "A dynamic website for showcasing a university's departments, news, events, and admissions information. Built entirely with React and modular components.",
   },
