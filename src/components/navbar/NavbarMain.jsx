@@ -13,7 +13,7 @@ import { useSelector } from "react"
     return ( 
 
         <nav className="max-w-[1800px] mx-auto w-full  px-4  fixed left-[50%] -translate-x-[50%] z-20 flex gap-10 mt-2">
-        <div className="flex justify-between w-full max-w-[1800px] mx-auto  bg-gradient-to-r from-blue2 to-Pink  items-center p-2 rounded-r-full rounded-l-full border-[0.5px] border-orange">
+        <div className="flex justify-between w-full max-w-[1800px] mx-auto  bg-gradient-to-r from-blue2 to-cyan  items-center p-2 rounded-r-full rounded-l-full border-[0.5px] border-orange">
 
         <NavbarLogo/>
         <div className={`${menuOpen ? "sm:block" : "sm:hidden"} lg:block`}>
