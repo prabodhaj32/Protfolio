@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 body{
-    @apply bg-gradient-to-r from-cyan to-blue2;
+    @apply bg-gradient-to-r from-darkCyan to-blue2;
 }
