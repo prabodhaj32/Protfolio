@@ -30,9 +30,9 @@ const ProjectDetail = () => {
           href={project.githubLink} 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="text-cyan flex items-center gap-2 hover:text-orange transition-all duration-300 mb-4"
+          className="text-white flex items-center gap-2 hover:text-orange transition-all duration-300 mb-4"
         >
-          <BsGithub size={24} />
+          <BsGithub size={30} />
           GitHub Repository
         </a>
       )}
