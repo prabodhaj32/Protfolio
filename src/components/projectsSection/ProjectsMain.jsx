@@ -37,25 +37,35 @@ const projects = [
 
 const ProjectsMain = () => {
   return (
-    <div id="projects" className="max-w-[1200px] mx-auto px-4">
+    <div id="projects" className="max-w-[1200px] mx-auto px-4 scroll-mt-24">
+      {/* Title animation */}
       <motion.div
-        variants={fadeIn("top", 0)}
+        variants={fadeIn("up", 0)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         <ProjectsText />
       </motion.div>
+
+      {/* Projects list with smooth stagger animation */}
       <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
         {projects.map((project, index) => (
-          <SingleProject
-            key={index}
-            id={project.id}
-            name={project.name}
-            year={project.year}
-            align={project.align}
-            image={project.image}
-          />
+          <motion.div
+            key={project.id}
+            variants={fadeIn("up", index * 0.2)} // Staggered delay
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.5 }}
+          >
+            <SingleProject
+              id={project.id}
+              name={project.name}
+              year={project.year}
+              align={project.align}
+              image={project.image}
+            />
+          </motion.div>
         ))}
       </div>
     </div>

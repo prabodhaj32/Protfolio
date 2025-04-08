@@ -10,7 +10,7 @@ const SingleProject = ({ id, name, year, align, image }) => {
         <h2 className={`text-xl font-thin text-white font-special sm:text-center ${align === "left" ? "md:text-right" : "md:text-left"}`}>{year}</h2>
         <Link
           to={`/project/${id}`}
-          className={`text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer sm:justify-self-center ${align === "left" ? "md:justify-self-end" : "md:justify-self-start"}`}
+          className={`text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-800 cursor-pointer sm:justify-self-center ${align === "left" ? "md:justify-self-end" : "md:justify-self-start"}`}
         >
           View <BsFillArrowUpRightCircleFill />
         </Link>

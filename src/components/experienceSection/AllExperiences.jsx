@@ -5,19 +5,19 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 
-const experiences = [
-  {
-    job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
-    responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
-    ],
-  },
-];
+// const experiences = [
+//   {
+//     job: "###########",
+//     company: "###########",
+//     date: "###########",
+//     responsibilities: [
+//       "###########.",
+//       "###########.",
+//       "###########.",
+//       "###########.",
+//     ],
+//   },
+// ];
 
 const AllExperiences = () => {
   return (
